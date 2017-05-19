@@ -1,0 +1,17 @@
+.navigation-steps{
+	color: black;
+	background-color: #ffa64d;
+	text-align: center;
+}
+ol{
+	display: inline-flex;
+
+}
+li:after {
+    content: "/ ";
+    padding: 0px 25px;
+    color: black;
+}
+li{
+	cursor: pointer;
+}

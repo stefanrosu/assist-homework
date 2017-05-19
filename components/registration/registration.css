@@ -1,0 +1,37 @@
+
+.input{
+	width: 100%;
+	margin-top: 15px;
+}
+.input-label{
+	width: 40%;    
+  float: left;
+  text-align: right;
+  padding: 0 10px;
+}
+.input-field{
+	width: 30%;
+  float: left;
+  height: 30px;
+}
+.input:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.input ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+}
+.input ::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+.input :-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+.input :-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
+.required{
+	text-align: center;
+    font-size: 14px;
+}
