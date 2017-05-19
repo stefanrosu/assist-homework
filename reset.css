@@ -8,15 +8,23 @@ body {
   box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
-.menu-item a{
-	text-decoration: none;
-	color: #47A6A0;
+
+.container{
+	
 }
-.footer a{
-	text-decoration: none;
-	color: #45B5AB;
+.title-details{
+	text-align: center;
 }
-.button a{
-	text-decoration: none;
-	color: #47A6A0;
+.txt-details{
+	width: 85%;
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 30px;
+}
+.title-services{
+	margin-left: 35px;
+
+}
+.subtitle-services{
+	margin-left: 35px;
 }
