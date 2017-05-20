@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>titlu</title>
+	<title>PhotoNet</title>
 	<meta charset="utf-8">
 
 	<link rel="stylesheet" type="text/css" href="nomalize.css">
@@ -16,6 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="components/services/services.css">
 	<link rel="stylesheet" type="text/css" href="components/button/button.css">
 	<link rel="stylesheet" type="text/css" href="components/thumbnail/thumbnail.css">
+	<link rel="stylesheet" type="text/css" href="components/about/about.css">
+
 
 
 
@@ -30,11 +32,11 @@
 		</header>
 		<nav class="navigation-steps">
 			<ol class="steps">
-				<li>Select office</li>
-				<li>Select services</li>
-				<li>Select data</li>
-				<li>Registration</li>
-				<li>Confirm</li>
+				<li class="nav-steps">Select office</li>
+				<li class="nav-steps">Select services</li>
+				<li class="nav-steps">Select data</li>
+				<li class="nav-steps">Registration</li>
+				<li class="nav-steps">Confirm</li>
 			</ol>	
 		</nav>
 		<!-- select office-->
@@ -123,32 +125,60 @@
 		<!-- registration -->
 
 		<div class="panel">
-		<div class="input input-inline">
-			<label class="input-label">First Name*: </label>
-			<input type="text" name="input" class="input-field">
+			<div class="about">
+				<h1 class="title-details">Your details</h1>
+				<ul>
+					<li><span class="about-left">Photo Shoot:</span> 
+						<span class="about-right"> Standard</span>
+					</li>
+					<li><span class="about-left">Description:</span> 
+						<span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
+					</li>
+					<li><span class="about-left">Price:</span> 
+						<span class="about-right"> 270 $</span>
+					</li>
+					<li><span class="about-left">Adress:</span> 
+						<span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
+					</li>
+					<li><span class="about-left">Duration:</span> 
+						<span class="about-right"> 45 minutes</span>
+					</li>
+					<li><span class="about-left">Date:</span> 
+						<span class="about-right">May 27, 2017 5:00 PM</span>
+					</li>
+				</ul>
+			</div>
+			<div class="registration">
+				<div class="input input-inline">
+					<label class="input-label">First Name*: </label>
+					<input type="text" name="input" class="input-field">
+				</div>
+				<div class="input input-inline">
+					<label class="input-label">Last Name*: </label>
+					<input type="text" name="input" class="input-field">
+				</div>
+				<div class="input input-inline">
+					<label class="input-label">Email*: </label>
+					<input type="text" name="input" class="input-field" placeholder="email@email.com">
+				</div>
+				<div class="input input-inline">
+					<label class="input-label">Mobile*: </label>
+					<input type="text" name="input" class="input-field">
+				</div>
+				<div class="input input-inline">
+					<label class="input-label">Sex*: </label>
+					<select type="text" name="input" class="input-field">
+						<option>Male</option>
+						<option>Female</option>
+						</select>
+				</div>
+				<p class="required">*Required fields</p>
+				<div class="down-btn">
+					<span class="down-btn-left"><button class="button"> Back</button></span>
+					<span class="down-btn-right"><button class="button"> Continue</button></span>
+				</div>
+			</div>
 		</div>
-		<div class="input input-inline">
-			<label class="input-label">Last Name*: </label>
-			<input type="text" name="input" class="input-field">
-		</div>
-		<div class="input input-inline">
-			<label class="input-label">Email*: </label>
-			<input type="text" name="input" class="input-field" placeholder="email@email.com">
-		</div>
-		<div class="input input-inline">
-			<label class="input-label">Mobile*: </label>
-			<input type="text" name="input" class="input-field">
-		</div>
-		<div class="input input-inline">
-			<label class="input-label">Sex*: </label>
-			<select type="text" name="input" class="input-field">
-				<option>Male</option>
-				<option>Female</option>
-				</select>
-		</div>
-		<p class="required">*Required fields</p>
-		</div>
-
 	</div>
 	
 

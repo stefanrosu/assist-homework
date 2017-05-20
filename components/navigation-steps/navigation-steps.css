@@ -7,7 +7,7 @@
 	display: inline-flex;
 
 }
-li:after {
+.nav-steps:after {
     content: "/ ";
     padding: 0px 25px;
     color: black;

@@ -1,0 +1,28 @@
+.about{
+	width: 90%;
+    border-bottom: 1px solid #CCC;
+    margin: auto;
+    padding-top: 15px;
+}
+.about-left{
+	display: inline-block;
+    width: 100px;
+    margin-right: 5px;
+    color: #4d94ff;
+}
+.about-right{
+	display: inline-block;
+    width: calc(100% - 140px);
+    vertical-align: top;
+}
+ul{
+	list-style: none;
+}
+.down-btn{
+	width: 88%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.down-btn-right{
+	float: right;
+}
