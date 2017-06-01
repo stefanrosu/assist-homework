@@ -1,6 +1,6 @@
 .navigation-steps{
-	color: black;
-	background-color: #ffa64d;
+	color: #FFF;
+	background-color: #4d94ff;;
 	text-align: center;
 }
 .steps{
@@ -8,10 +8,7 @@
 
 }
 .nav-steps:after {
-    content: "/ ";
+    content: " ";
     padding: 0px 25px;
-    color: black;
-}
-li{
-	cursor: pointer;
+    color: white;
 }

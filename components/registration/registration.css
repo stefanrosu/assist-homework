@@ -23,13 +23,13 @@
   color: grey;
 }
 .input ::-moz-placeholder { /* Firefox 19+ */
-  color: pink;
+  color: grey;
 }
 .input :-ms-input-placeholder { /* IE 10+ */
-  color: pink;
+  color: grey;
 }
 .input :-moz-placeholder { /* Firefox 18- */
-  color: pink;
+  color: grey;
 }
 .required{
 	text-align: center;
