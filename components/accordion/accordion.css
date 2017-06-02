@@ -1,4 +1,30 @@
+.accordion-container{
+	width: 100%;
+	max-width: 400px;
+}
 .accordion{
-	width: 50%;
-    float: left;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.accordion-header{
+	display: block;
+	padding: 15px 20px;
+	background: #ffa64d;
+	color: #FFF;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+.accordion-content{
+	padding: 0;
+	height: 0;
+	overflow: hidden;
+}
+.accordion-content:target{
+	height: auto;
+	padding: 20px;
+}
+.accordion-content p{
+	margin: 0 0 20px 0;
 }
