@@ -10,21 +10,27 @@
 }
 .accordion-header{
 	display: block;
-	padding: 15px 20px;
-	background: #ffa64d;
-	color: #FFF;
-	text-decoration: none;
-	margin-bottom: 5px;
-}
-.accordion-content{
-	padding: 0;
-	height: 0;
-	overflow: hidden;
-}
-.accordion-content:target{
-	height: auto;
-	padding: 20px;
+    padding: 8px 25px;
+    background: #4d94ff;
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 .accordion-content p{
-	margin: 0 0 20px 0;
+	margin: 20px;
+	width: 70%;
+}
+.accordion-content{
+	height: 0;
+	overflow: hidden;
+	-webkit-transition:height 600ms ease;
+	transition:height 600ms ease;
+}
+.accordion-content:target {
+	height: 235px;
+	padding: 20px;
+}
+.accordion-btn{
+	float: right;
 }
