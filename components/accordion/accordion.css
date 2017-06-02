@@ -18,7 +18,7 @@
     font-size: 18px;
 }
 .accordion-content p{
-	margin: 20px;
+	margin: 10px;
 	width: 70%;
 }
 .accordion-content{
@@ -28,7 +28,7 @@
 	transition:height 600ms ease;
 }
 .accordion-content:target {
-	height: 235px;
+	height: 200px;
 	padding: 20px;
 }
 .accordion-btn{
