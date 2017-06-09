@@ -1,0 +1,1 @@
+$('.content').accordion ( {collapsible: true});
