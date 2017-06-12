@@ -1,1 +1,1 @@
-$('.content').accordion ( {collapsible: true});
+$('.content').accordion ({fillSpace: true, collapsible: true});
