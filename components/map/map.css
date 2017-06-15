@@ -1,4 +1,9 @@
-.map-right{
-	width: 50%;
-    float: right;
+.map{
+	float: right;
+	width: 60%;
+}
+.office-container{
+	width: 85%;
+    min-height: 290px;
+    margin: auto;
 }

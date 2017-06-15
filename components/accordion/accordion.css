@@ -1,7 +1,6 @@
 .accordion{
-	width: 33%;
-    margin-left: 60px;
-    margin-top: 30px;
+	width: 36%;
+    float: left;
     height: 290px;
 }
 .info-txt{

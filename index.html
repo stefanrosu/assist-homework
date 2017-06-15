@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="components/thumbnail/thumbnail.css">
 	<link rel="stylesheet" type="text/css" href="components/about/about.css">
 	<link rel="stylesheet" type="text/css" href="components/accordion/accordion.css">
-
+	<link rel="stylesheet" type="text/css" href="components/calendar/calendar.css">
 </head>
 <body>
 	<div class="container">
@@ -42,44 +42,49 @@
 			<h1 class="title-details">Select your office</h1>
 			<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
 			<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
-			<div class="accordion">
-				<div class="content">
-					<h3><a href="#">Office 1</a></h3>
-					<div class="info-txt">
-						<p>Lorem ipsum dolor sit amet.</p>
-						<p>Lorem ipsum dolor sit amet.</p>
-						<p>0754886991</p>
-						<span class="btn-acc">
-							<button class="acc-btn">Select</button>
-						</span>
+			<div class="office-container">
+				<div class="accordion">
+					<div class="content">
+						<h3><a href="#">Office 1</a></h3>
+						<div class="info-txt">
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>0754886991</p>
+							<span class="btn-acc">
+								<button class="acc-btn">Select</button>
+							</span>
+						</div>
+						<h3><a href="#">Office 2</a></h3>
+						<div class="info-txt">
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>0754886991</p>
+							<span class="btn-acc">
+								<button class="acc-btn">Select</button>
+							</span>
+						</div>
+						<h3><a href="#">Office 3</a></h3>
+						<div class="info-txt">
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>0754886991</p>
+							<span class="btn-acc">
+								<button class="acc-btn">Select</button>
+							</span>
+						</div>
+						<h3><a href="#">Office 4</a></h3>
+						<div class="info-txt">
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>0754886991</p>
+							<span class="btn-acc">
+								<button class="acc-btn">Select</button>
+							</span>
+						</div>
 					</div>
-					<h3><a href="#">Office 2</a></h3>
-					<div class="info-txt">
-						<p>Lorem ipsum dolor sit amet.</p>
-						<p>Lorem ipsum dolor sit amet.</p>
-						<p>0754886991</p>
-						<span class="btn-acc">
-							<button class="acc-btn">Select</button>
-						</span>
-					</div>
-					<h3><a href="#">Office 3</a></h3>
-					<div class="info-txt">
-						<p>Lorem ipsum dolor sit amet.</p>
-						<p>Lorem ipsum dolor sit amet.</p>
-						<p>0754886991</p>
-						<span class="btn-acc">
-							<button class="acc-btn">Select</button>
-						</span>
-					</div>
-					<h3><a href="#">Office 4</a></h3>
-					<div class="info-txt">
-						<p>Lorem ipsum dolor sit amet.</p>
-						<p>Lorem ipsum dolor sit amet.</p>
-						<p>0754886991</p>
-						<span class="btn-acc">
-							<button class="acc-btn">Select</button>
-						</span>
-					</div>
+				</div>
+				<div class="map">
+					<span><script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:287px;width:600px;'><div id='gmap_canvas' style='height:287px;width:600px;'></div><div><small><a href="http://googlemapsgenerator.com/ro/">Încorpora o hartă Google pe site-ul dvs</a></small></div><div><small><a href="http://www.freecountercode.com/">freecountercode.com</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.64654909999999,26.250039300000026),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.64654909999999,26.250039300000026)});infowindow = new google.maps.InfoWindow({content:'<strong>Office 1 </strong><br>Str.Marasesti,Suceava,Romania<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></span>
 				</div>
 			</div>
 		</div>
@@ -175,6 +180,14 @@
 					</li>
 				</ul>
 			</div>	
+			<div class="calendar">
+				<div class="calendar-form" id="date" size="8">
+				</div>
+				<div class="down-btn">
+					<span class="down-btn-left"><button class="button"> Back</button></span>
+					<span class="down-btn-right"><button class="button"> Continue</button></span>
+				</div>
+			</div>
 		</div>
 
 		<!-- registration -->
