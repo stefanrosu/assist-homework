@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>PhotoNet</title>
 	<meta charset="utf-8">
-
 	<link rel="stylesheet" type="text/css" href="nomalize.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="components/header/header.css">
@@ -20,6 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="components/accordion/accordion.css">
 	<link rel="stylesheet" type="text/css" href="components/calendar/calendar.css">
 </head>
+
 <body>
 	<div class="container">
 		<header>
@@ -38,223 +39,179 @@
 			</ol>	
 		</nav>
 		<!-- select office --> 
-		<div class="panel">
-			<h1 class="title-details">Select your office</h1>
-			<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
-			<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
-			<div class="office-container">
-				<div class="accordion">
-					<div class="content">
-						<h3><a href="#">Office 1</a></h3>
-						<div class="info-txt">
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p>0754886991</p>
-							<span class="btn-acc">
-								<button class="acc-btn">Select</button>
-							</span>
-						</div>
-						<h3><a href="#">Office 2</a></h3>
-						<div class="info-txt">
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p>0754886991</p>
-							<span class="btn-acc">
-								<button class="acc-btn">Select</button>
-							</span>
-						</div>
-						<h3><a href="#">Office 3</a></h3>
-						<div class="info-txt">
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p>0754886991</p>
-							<span class="btn-acc">
-								<button class="acc-btn">Select</button>
-							</span>
-						</div>
-						<h3><a href="#">Office 4</a></h3>
-						<div class="info-txt">
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<p>0754886991</p>
-							<span class="btn-acc">
-								<button class="acc-btn">Select</button>
-							</span>
+		<div class="office-container">
+			<div class="panel">
+				<h1 class="title-details">Select your office</h1>
+				<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
+				<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
+				<div class="office">
+					<div class="accordion">
+						<div class="content">
+							<h3 id="map-acc-a" ><a href="#">Office 1</a></h3>
+							<div class="info-txt">
+								<p>Lorem ipsum dolor sit amet.</p>
+								<p>Lorem ipsum dolor sit amet.</p>
+								<p>0754886991</p>
+								<span class="btn-acc">
+									<button class="acc-btn">Select</button>
+								</span>
+
+							</div>
+							<h3 id="map-acc-b"><a href="#">Office 2</a></h3>
+							<div class="info-txt">
+								<p>Lorem ipsum dolor sit amet.</p>
+								<p>Lorem ipsum dolor sit amet.</p>
+								<p>0754886991</p>
+								<span class="btn-acc">
+									<button class="acc-btn">Select</button>
+								</span>
+							</div>
+							<h3 id="map-acc-c"><a href="#">Office 3</a></h3>
+							<div class="info-txt">
+								<p>Lorem ipsum dolor sit amet.</p>
+								<p>Lorem ipsum dolor sit amet.</p>
+								<p>0754886991</p>
+								<span class="btn-acc">
+									<button class="acc-btn">Select</button>
+								</span>
+							</div>
+							<h3 id="map-acc-d"><a href="#">Office 4</a></h3>
+							<div class="info-txt">
+								<p>Lorem ipsum dolor sit amet.</p>
+								<p>Lorem ipsum dolor sit amet.</p>
+								<p>0754886991</p>
+								<span class="btn-acc">
+									<button class="acc-btn">Select</button>
+								</span>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="map">
-					<span><script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:287px;width:600px;'><div id='gmap_canvas' style='height:287px;width:600px;'></div><div><small><a href="http://googlemapsgenerator.com/ro/">Încorpora o hartă Google pe site-ul dvs</a></small></div><div><small><a href="http://www.freecountercode.com/">freecountercode.com</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.64654909999999,26.250039300000026),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.64654909999999,26.250039300000026)});infowindow = new google.maps.InfoWindow({content:'<strong>Office 1 </strong><br>Str.Marasesti,Suceava,Romania<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></span>
+					<!-- google maps -->
+					<div id="map">
+
+				
+					
+					</div>
 				</div>
 			</div>
+		</div>
+		<!-- select services-->
+		<div class="services-container">
+			<div class="panel" id="services_panel">
+				<h1 class="title-details">Select your services</h1>
+				<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
+			</div>
+			<div class="back-index"><button class="button">Back</button></div>'
 		</div>
 		
-		<!-- select services-->
-		<div class="panel">
-			<h1 class="title-details">Select your services</h1>
-			<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
-			<div class="services">
-				<h2 class="title-services">Classic Photo</h2>
-				<p class="subtitle-services">120 $</p>
-				<div class="panel-services">
-					<div class="thumbnail">
-						<img class="page-logo" src="components/images/classic.jpg">
-					</div>
-					<div class="panel-text">
-						<p> PhotoNet   the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores. PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores</p>
-					</div>			
-				</div>
-				<div class="btn-service">
-					<button class="button"> Select</button>
-				</div>
-			</div>
-			<div class="services">
-				<h2 class="title-services">Children Photo</h2>
-				<p class="subtitle-services">80 $</p>
-				<div class="panel-services">
-					<div class="thumbnail">
-						<img class="page-logo" src="components/images/children.jpg">
-					</div>
-					<div class="panel-text">
-						<p> PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores. PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores</p>
-					</div>			
-				</div>
-				<div class="btn-service">
-					<button class="button"> Select</button>
-				</div>
-			</div>
-			<div class="services">
-				<h2 class="title-services">Nature Photo</h2>
-				<p class="subtitle-services">100 $</p>
-				<div class="panel-services">
-					<div class="thumbnail">
-						<img class="page-logo" src="components/images/nature.jpg">
-					</div>
-					<div class="panel-text">
-						<p> PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores. PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores</p>
-					</div>			
-				</div>
-				<div class="btn-service">
-					<button class="button"> Select</button>
-				</div>
-			</div>
-			<div class="services">
-				<h2 class="title-services">Passport Photo</h2>
-				<p class="subtitle-services">200 $</p>
-				<div class="panel-services">
-					<div class="thumbnail">
-						<img class="page-logo" src="components/images/passport.jpg">
-					</div>
-					<div class="panel-text">
-						<p> PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores. PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores</p>
-					</div>			
-				</div>
-				<div class="btn-service">
-					<button class="button"> Select</button>
-				</div>
-			</div>
-		</div>
-
 		<!-- select time-->
-		<div class="panel">
-			<div class="about">
-				<h1 class="title-details">Select your time</h1>
-				<ul>
-					<li><span class="about-left">Photo Shoot:</span> 
-						<span class="about-right"> Standard</span>
-					</li>
-					<li><span class="about-left">Description:</span> 
-						<span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
-					</li>
-					<li><span class="about-left">Price:</span> 
-						<span class="about-right"> 270 $</span>
-					</li>
-					<li><span class="about-left">Adress:</span> 
-						<span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
-					</li>
-					<li><span class="about-left">Duration:</span> 
-						<span class="about-right"> 45 minutes</span>
-					</li>
-					<li><span class="about-left">Date:</span> 
-						<span class="about-right">May 27, 2017 5:00 PM</span>
-					</li>
-				</ul>
-			</div>	
-			<div class="calendar">
-				<div class="calendar-form" id="date" size="8">
-				</div>
-				<div class="down-btn">
-					<span class="down-btn-left"><button class="button"> Back</button></span>
-					<span class="down-btn-right"><button class="button"> Continue</button></span>
+		<div class="time-container">	
+			<div class="panel">
+				<div class="about">
+					<h1 class="title-details">Select your time</h1>
+					<ul>
+						<li><span class="about-left">Photo Shoot:</span> 
+							<span class="about-right"> Standard</span>
+						</li>
+						<li><span class="about-left">Description:</span> 
+							<span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
+						</li>
+						<li><span class="about-left">Price:</span> 
+							<span class="about-right"> 270 $</span>
+						</li>
+						<li><span class="about-left">Adress:</span> 
+							<span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
+						</li>
+						<li><span class="about-left">Duration:</span> 
+							<span class="about-right"> 45 minutes</span>
+						</li>
+						<li><span class="about-left">Date:</span> 
+							<span class="about-right">May 27, 2017 5:00 PM</span>
+						</li>
+					</ul>
+				</div>	
+				<div class="calendar">
+					<div class="calendar-form" id="date" size="8">
+					</div>
+					<div class="down-btn">
+						<span class="down-btn-left"><button class="button"> Back</button></span>
+						<span class="down-btn-right"><button class="button"> Continue</button></span>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- registration -->
-
-		<div class="panel">
-			<div class="about">
-				<h1 class="title-details">Your details</h1>
-				<ul>
-					<li><span class="about-left">Photo Shoot:</span> 
-						<span class="about-right"> Standard</span>
-					</li>
-					<li><span class="about-left">Description:</span> 
-						<span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
-					</li>
-					<li><span class="about-left">Price:</span> 
-						<span class="about-right"> 270 $</span>
-					</li>
-					<li><span class="about-left">Adress:</span> 
-						<span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
-					</li>
-					<li><span class="about-left">Duration:</span> 
-						<span class="about-right"> 45 minutes</span>
-					</li>
-					<li><span class="about-left">Date:</span> 
-						<span class="about-right">May 27, 2017 5:00 PM</span>
-					</li>
-				</ul>
-			</div>
-			<div class="registration">
-				<div class="input input-inline">
-					<label class="input-label">First Name*: </label>
-					<input type="text" name="input" class="input-field">
+		<div class="details-container">
+			<div class="panel">
+				<div class="about">
+					<h1 class="title-details">Your details</h1>
+					<ul>
+						<li><span class="about-left">Photo Shoot:</span> 
+							<span class="about-right"> Standard</span>
+						</li>
+						<li><span class="about-left">Description:</span> 
+							<span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
+						</li>
+						<li><span class="about-left">Price:</span> 
+							<span class="about-right"> 270 $</span>
+						</li>
+						<li><span class="about-left">Adress:</span> 
+							<span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
+						</li>
+						<li><span class="about-left">Duration:</span> 
+							<span class="about-right"> 45 minutes</span>
+						</li>
+						<li><span class="about-left">Date:</span> 
+							<span class="about-right">May 27, 2017 5:00 PM</span>
+						</li>
+					</ul>
 				</div>
-				<div class="input input-inline">
-					<label class="input-label">Last Name*: </label>
-					<input type="text" name="input" class="input-field">
-				</div>
-				<div class="input input-inline">
-					<label class="input-label">Email*: </label>
-					<input type="text" name="input" class="input-field" placeholder="email@email.com">
-				</div>
-				<div class="input input-inline">
-					<label class="input-label">Mobile*: </label>
-					<input type="text" name="input" class="input-field">
-				</div>
-				<div class="input input-inline">
-					<label class="input-label">Sex*: </label>
-					<select type="text" name="input" class="input-field">
-						<option>Male</option>
-						<option>Female</option>
-						</select>
-				</div>
-				<p class="required">*Required fields</p>
-				<div class="down-btn">
-					<span class="down-btn-left"><button class="button"> Back</button></span>
-					<span class="down-btn-right"><button class="button"> Continue</button></span>
+				<div class="registration">
+					<div class="input input-inline">
+						<label class="input-label">First Name*: </label>
+						<input type="text" name="input" class="input-field">
+					</div>
+					<div class="input input-inline">
+						<label class="input-label">Last Name*: </label>
+						<input type="text" name="input" class="input-field">
+					</div>
+					<div class="input input-inline">
+						<label class="input-label">Email*: </label>
+						<input type="text" name="input" class="input-field" placeholder="email@email.com">
+					</div>
+					<div class="input input-inline">
+						<label class="input-label">Mobile*: </label>
+						<input type="text" name="input" class="input-field">
+					</div>
+					<div class="input input-inline">
+						<label class="input-label">Sex*: </label>
+						<select type="text" name="input" class="input-field">
+							<option>Male</option>
+							<option>Female</option>
+							</select>
+					</div>
+					<p class="required">*Required fields</p>
+					<div class="down-btn">
+						<span class="btn-back"><button class="button"> Back</button></span>
+						<span class="down-btn-right"><button class="button"> Continue</button></span>
+					</div>
 				</div>
 			</div>
 		</div>
-		<footer>
-			<div class="footer-rights">
-				<p>All rights reserved by Assist Software</p>
-			</div>
-		</footer>
 	</div>
+	<footer>
+		<div class="footer-rights">
+			<p>All rights reserved by Assist Software</p>
+		</div>
+	</footer>
 </body>
 <script type="text/javascript" src="components/js/jquery-1.8.3.js"></script>
 <script type="text/javascript" src="components/js/jquery-ui-1.9.2.custom.min.js"></script>
 <script type="text/javascript" src="components/js/ui.js"></script>
+<script type="text/javascript" src="custom.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8xE1hCbgh9SUf-p-H_8Xd4iYzOT8RJx4&callback=initMap">
+</script>
+
 </html>

@@ -1,9 +1,12 @@
-.map{
+#map{
 	float: right;
 	width: 60%;
+	height: 290px;
+	
 }
-.office-container{
+.office{
 	width: 85%;
     min-height: 290px;
     margin: auto;
 }
+
