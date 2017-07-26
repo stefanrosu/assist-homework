@@ -9,17 +9,7 @@
     border: transparent;
     cursor: pointer;
 }
-.button-services{
-	color: #FFF;
-    background-color: #ff8c1a;
-    padding: 6px 17px;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 10px;
-    box-shadow: 1px 2px 6px -1px #ff8c1a;
-    border: transparent;
-    cursor: pointer;
-}
+
 .acc-btn{
     color: #FFF;
     background-color: #ff8c1a;
@@ -31,16 +21,21 @@
     border: transparent;
     cursor: pointer;
 }
-.back-index {
-    color: #FFF;
-    background-color: #ff8c1a;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 10px;
-    box-shadow: 1px 2px 6px -1px #ff8c1a;
-    border: transparent;
-    cursor: pointer;
-    width: 7%;
+.bottom-btn{
+    width: 88%;
     margin: auto;
-    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.continue-btn{
+    float: right;
+}
+.back-btn{
+    margin: auto;
+    margin-bottom: 30px;
+}
+.back-btn-time{
+    margin: auto;
+    margin-bottom: 30px;
 }

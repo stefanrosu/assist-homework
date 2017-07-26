@@ -1,217 +1,204 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<title>PhotoNet</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="nomalize.css">
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="components/header/header.css">
-	<link rel="stylesheet" type="text/css" href="components/navigation-steps/navigation-steps.css">
-	<link rel="stylesheet" type="text/css" href="components/footer/footer.css">
-	<link rel="stylesheet" type="text/css" href="components/panel/panel.css">
-	<link rel="stylesheet" type="text/css" href="components/registration/registration.css">
-	<link rel="stylesheet" type="text/css" href="components/map/map.css">
-	<link rel="stylesheet" type="text/css" href="components/accordion/accordion.css">
-	<link rel="stylesheet" type="text/css" href="components/services/services.css">
-	<link rel="stylesheet" type="text/css" href="components/button/button.css">
-	<link rel="stylesheet" type="text/css" href="components/thumbnail/thumbnail.css">
-	<link rel="stylesheet" type="text/css" href="components/about/about.css">
-	<link rel="stylesheet" type="text/css" href="components/accordion/accordion.css">
-	<link rel="stylesheet" type="text/css" href="components/calendar/calendar.css">
-</head>
+  <head>
+    <title>PhotoNet</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="components/header/header.css">
+    <link rel="stylesheet" type="text/css" href="components/navigation-steps/navigation-steps.css">
+    <link rel="stylesheet" type="text/css" href="components/footer/footer.css">
+    <link rel="stylesheet" type="text/css" href="components/panel/panel.css">
+    <link rel="stylesheet" type="text/css" href="components/registration/registration.css">
+    <link rel="stylesheet" type="text/css" href="components/map/map.css">
+    <link rel="stylesheet" type="text/css" href="components/accordion/accordion.css">
+    <link rel="stylesheet" type="text/css" href="components/services/services.css">
+    <link rel="stylesheet" type="text/css" href="components/button/button.css">
+    <link rel="stylesheet" type="text/css" href="components/thumbnail/thumbnail.css">
+    <link rel="stylesheet" type="text/css" href="components/about/about.css">
+    <link rel="stylesheet" type="text/css" href="components/accordion/accordion.css">
+    <link rel="stylesheet" type="text/css" href="components/calendar/calendar.css">
+  </head>
 
-<body>
-	<div class="container">
-		<header>
-			<div class="header">
-				<img class="page-logo" src="components/header-logo/header-logo.png">
-				<h1 class="header-text">PhotoNet</h1>
-			</div>
-		</header>
-		<nav class="navigation-steps">
-			<ol class="steps">
-				<li class="nav-steps">Select office</li>
-				<li class="nav-steps">Select services</li>
-				<li class="nav-steps">Select data</li>
-				<li class="nav-steps">Registration</li>
-				<li class="nav-steps">Confirm</li>
-			</ol>	
-		</nav>
-		<!-- select office --> 
-		<div class="office-container">
-			<div class="panel">
-				<h1 class="title-details">Select your office</h1>
-				<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
-				<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
-				<div class="office">
-					<div class="accordion">
-						<div class="content">
-							<h3 id="map-acc-a" ><a href="#">Office 1</a></h3>
-							<div class="info-txt">
-								<p>Lorem ipsum dolor sit amet.</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-								<p>0754886991</p>
-								<span class="btn-acc">
-									<button class="acc-btn">Select</button>
-								</span>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header">
+          <img class="page-logo"
+               src="components/header-logo/header-logo.png">
+          <h1 class="header-text">PhotoNet</h1>
+        </div>
+      </header>
+      <nav class="navigation-steps">
+        <ol class="steps">
+          <li class="nav-steps">Select office</li>
+          <li class="nav-steps">Select services</li>
+          <li class="nav-steps">Select data</li>
+          <li class="nav-steps">Registration</li>
+          <li class="nav-steps">Confirm</li>
+        </ol>
+      </nav>
+      <!-- select office -->
+      <div class="office-container">
+        <div class="panel">
+          <h1 class="title-details">Select your office</h1>
+          <p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios
+            are located nationwide in selected Mothercare & Debenhams stores.</p>
+          <p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios
+            are located nationwide in selected Mothercare & Debenhams stores.</p>
+          <div id="officeAccordion" class="office">
+            <div class="accordion" data-role="collapsible-set">
+            </div>
 
-							</div>
-							<h3 id="map-acc-b"><a href="#">Office 2</a></h3>
-							<div class="info-txt">
-								<p>Lorem ipsum dolor sit amet.</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-								<p>0754886991</p>
-								<span class="btn-acc">
-									<button class="acc-btn">Select</button>
-								</span>
-							</div>
-							<h3 id="map-acc-c"><a href="#">Office 3</a></h3>
-							<div class="info-txt">
-								<p>Lorem ipsum dolor sit amet.</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-								<p>0754886991</p>
-								<span class="btn-acc">
-									<button class="acc-btn">Select</button>
-								</span>
-							</div>
-							<h3 id="map-acc-d"><a href="#">Office 4</a></h3>
-							<div class="info-txt">
-								<p>Lorem ipsum dolor sit amet.</p>
-								<p>Lorem ipsum dolor sit amet.</p>
-								<p>0754886991</p>
-								<span class="btn-acc">
-									<button class="acc-btn">Select</button>
-								</span>
-							</div>
-						</div>
-					</div>
-					<!-- google maps -->
-					<div id="map">
+            <!-- MAP -->
+            <div id="map"></div>
+          </div>
 
-				
-					
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- select services-->
-		<div class="services-container">
-			<div class="panel" id="services_panel">
-				<h1 class="title-details">Select your services</h1>
-				<p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios are located nationwide in selected Mothercare & Debenhams stores.</p>
-			</div>
-			<div class="back-index"><button class="button">Back</button></div>'
-		</div>
-		
-		<!-- select time-->
-		<div class="time-container">	
-			<div class="panel">
-				<div class="about">
-					<h1 class="title-details">Select your time</h1>
-					<ul>
-						<li><span class="about-left">Photo Shoot:</span> 
-							<span class="about-right"> Standard</span>
-						</li>
-						<li><span class="about-left">Description:</span> 
-							<span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
-						</li>
-						<li><span class="about-left">Price:</span> 
-							<span class="about-right"> 270 $</span>
-						</li>
-						<li><span class="about-left">Adress:</span> 
-							<span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
-						</li>
-						<li><span class="about-left">Duration:</span> 
-							<span class="about-right"> 45 minutes</span>
-						</li>
-						<li><span class="about-left">Date:</span> 
-							<span class="about-right">May 27, 2017 5:00 PM</span>
-						</li>
-					</ul>
-				</div>	
-				<div class="calendar">
-					<div class="calendar-form" id="date" size="8">
-					</div>
-					<div class="down-btn">
-						<span class="down-btn-left"><button class="button"> Back</button></span>
-						<span class="down-btn-right"><button class="button"> Continue</button></span>
-					</div>
-				</div>
-			</div>
-		</div>
+        </div>
+      </div>
+      <!-- select services-->
+      <div class="services-container hidden">
+        <div class="panel">
+          <h1 class="title-details">Select your services</h1>
+          <p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios
+            are located nationwide in selected Mothercare & Debenhams stores.</p>
+        </div>
 
-		<!-- registration -->
-		<div class="details-container">
-			<div class="panel">
-				<div class="about">
-					<h1 class="title-details">Your details</h1>
-					<ul>
-						<li><span class="about-left">Photo Shoot:</span> 
-							<span class="about-right"> Standard</span>
-						</li>
-						<li><span class="about-left">Description:</span> 
-							<span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
-						</li>
-						<li><span class="about-left">Price:</span> 
-							<span class="about-right"> 270 $</span>
-						</li>
-						<li><span class="about-left">Adress:</span> 
-							<span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
-						</li>
-						<li><span class="about-left">Duration:</span> 
-							<span class="about-right"> 45 minutes</span>
-						</li>
-						<li><span class="about-left">Date:</span> 
-							<span class="about-right">May 27, 2017 5:00 PM</span>
-						</li>
-					</ul>
-				</div>
-				<div class="registration">
-					<div class="input input-inline">
-						<label class="input-label">First Name*: </label>
-						<input type="text" name="input" class="input-field">
-					</div>
-					<div class="input input-inline">
-						<label class="input-label">Last Name*: </label>
-						<input type="text" name="input" class="input-field">
-					</div>
-					<div class="input input-inline">
-						<label class="input-label">Email*: </label>
-						<input type="text" name="input" class="input-field" placeholder="email@email.com">
-					</div>
-					<div class="input input-inline">
-						<label class="input-label">Mobile*: </label>
-						<input type="text" name="input" class="input-field">
-					</div>
-					<div class="input input-inline">
-						<label class="input-label">Sex*: </label>
-						<select type="text" name="input" class="input-field">
+
+        <div id="services_panel"></div>
+
+        <div class="bottom-btn">
+          <button class="button back-btn" onclick="servicesBack()"> Back</button>
+        </div>
+
+      </div>
+
+      <!-- select time-->
+      <div class="time-container hidden">
+        <div class="panel">
+          <div class="about">
+            <h1 class="title-details">Select your time</h1>
+            <ul>
+              <li><span class="about-left">Photo Shoot:</span>
+                <span class="about-right"> Standard</span>
+              </li>
+              <li><span class="about-left">Description:</span>
+                <span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
+              </li>
+              <li><span class="about-left">Price:</span>
+                <span class="about-right"> 270 $</span>
+              </li>
+              <li><span class="about-left">Adress:</span>
+                <span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
+              </li>
+              <li><span class="about-left">Date:</span>
+                <span class="about-right">May 27, 2017</span>
+              </li>
+            </ul>
+          </div>
+          <div class="calendar">
+            <div class="calendar-form"
+                 id="date"
+                 size="8">
+            </div>
+          </div>
+        </div>
+        <div class="bottom-btn">
+          <button class="button back-btn" onclick="calendarBack()"> Back</button>
+          <button class="button continue-btn" onclick="detailsNext()"> Continue</button>
+        </div>
+      </div>
+
+      <!-- registration -->
+      <div class="details-container hidden">
+        <div class="panel">
+          <div class="about">
+            <h1 class="title-details">Your details</h1>
+            <ul>
+              <li><span class="about-left">Photo Shoot:</span>
+                <span class="about-right"> Standard</span>
+              </li>
+              <li><span class="about-left">Description:</span>
+                <span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
+              </li>
+              <li><span class="about-left">Price:</span>
+                <span class="about-right"> 270 $</span>
+              </li>
+              <li><span class="about-left">Adress:</span>
+                <span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
+              </li>
+              <li><span class="about-left">Date:</span>
+                <span class="about-right">May 27, 2017 </span>
+              </li>
+            </ul>
+          </div>
+          <div class="registration">
+            <div class="input input-inline">
+              <label class="input-label ">First Name*: </label>
+              <input type="text"
+                     name="input"
+                     class="input-field">
+            </div>
+            <div class="input input-inline">
+              <label class="input-label">Last Name*: </label>
+              <input type="text"
+                     name="input"
+                     class="input-field">
+            </div>
+            <div class="input input-inline">
+              <label class="input-label">Email*: </label>
+              <input type="text"
+                     name="input"
+                     class="input-field"
+                     placeholder="email@email.com">
+            </div>
+            <div class="input input-inline">
+              <label class="input-label">Mobile*: </label>
+              <input type="text"
+                     name="input"
+                     class="input-field">
+            </div>
+            <div class="input input-inline">
+              <label class="input-label">Sex*: </label>
+              <select type="text"
+                      name="input"
+                      class="input-field">
 							<option>Male</option>
 							<option>Female</option>
 							</select>
-					</div>
-					<p class="required">*Required fields</p>
-					<div class="down-btn">
-						<span class="btn-back"><button class="button"> Back</button></span>
-						<span class="down-btn-right"><button class="button"> Continue</button></span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer>
-		<div class="footer-rights">
-			<p>All rights reserved by Assist Software</p>
-		</div>
-	</footer>
-</body>
-<script type="text/javascript" src="components/js/jquery-1.8.3.js"></script>
-<script type="text/javascript" src="components/js/jquery-ui-1.9.2.custom.min.js"></script>
-<script type="text/javascript" src="components/js/ui.js"></script>
-<script type="text/javascript" src="custom.js"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8xE1hCbgh9SUf-p-H_8Xd4iYzOT8RJx4&callback=initMap">
-</script>
+            </div>
+            <p class="required">*Required fields</p>
+            <div class="bottom-btn">
+              <button class="button back-btn-time" onclick="timeBack()"> Back</button>
+              <button class="button continue-btn"> Continue</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!--       <div class="confirm-container hidden">
+      	<div class="panel">
+      		
+      	</div>
+
+      </div> -->
+
+      
+    </div>
+    <footer>
+      <div class="footer-rights">
+        <p>All rights reserved by Assist Software</p>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript" src="components/js/jquery-1.8.3.js"></script>
+  <script type="text/javascript" src="components/js/jquery-ui-1.9.2.custom.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8xE1hCbgh9SUf-p-H_8Xd4iYzOT8RJx4&callback"></script>
+  <script type="text/javascript" src="components/js/ui.js"></script>
+  <script type="text/javascript" src="components/accordion/offices.js"></script>
+  <script type="text/javascript" src="components/services/services.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
 
 </html>
