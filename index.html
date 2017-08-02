@@ -54,7 +54,7 @@
             <!-- MAP -->
             <div id="map"></div>
           </div>
-
+			
         </div>
       </div>
       <!-- select services-->
@@ -97,12 +97,14 @@
               </li>
             </ul>
           </div>
+
+        
           <div class="calendar">
-            <div class="calendar-form"
-                 id="date"
-                 size="8">
-            </div>
+            <div class="calendar-form" id="date" size="8"></div>
+            	<input type="hidden" id="hidden_input">
           </div>
+
+
         </div>
         <div class="bottom-btn">
           <button class="button back-btn" onclick="calendarBack()"> Back</button>
@@ -171,19 +173,20 @@
             <p class="required">*Required fields</p>
             <div class="bottom-btn">
               <button class="button back-btn-time" onclick="timeBack()"> Back</button>
-              <button class="button continue-btn"> Continue</button>
+              <button class="button continue-btn" id="iubi" onclick="confirmNext()"> Continue</button>
             </div>
           </div>
         </div>
       </div>
 
+			<!-- confirm page -->
 
-<!--       <div class="confirm-container hidden">
+      <div class="confirm-container hidden">
       	<div class="panel">
-      		
+      		 <p id="eu"></p>
       	</div>
 
-      </div> -->
+      </div>
 
       
     </div>

@@ -18,7 +18,10 @@
 		$(".time-container").show();
 		$(".details-container").hide();
 	}
-
+	function confirmNext() {
+		$(".confirm-container").show();
+		$(".details-container").hide();
+	}
 	function render() {
 		window.renderOffices();
 	}
@@ -29,5 +32,6 @@
 	window.calendarBack = calendarBack;
 	window.detailsNext = detailsNext;
 	window.timeBack = timeBack;
+	window.confirmNext = confirmNext;
 
 })();
