@@ -98,12 +98,9 @@
             </ul>
           </div>
 
-        
           <div class="calendar">
             <div class="calendar-form" id="date" size="8"></div>
-            	<input type="hidden" id="hidden_input">
           </div>
-
 
         </div>
         <div class="bottom-btn">
@@ -138,42 +135,32 @@
           <div class="registration">
             <div class="input input-inline">
               <label class="input-label ">First Name*: </label>
-              <input type="text"
-                     name="input"
-                     class="input-field">
+                     <input type="text"
+                     id="f-name" class="input-field">
             </div>
             <div class="input input-inline">
               <label class="input-label">Last Name*: </label>
               <input type="text"
-                     name="input"
+                     id="l-name" 
                      class="input-field">
             </div>
             <div class="input input-inline">
               <label class="input-label">Email*: </label>
               <input type="text"
-                     name="input"
+                     id="Email"
                      class="input-field"
                      placeholder="email@email.com">
             </div>
             <div class="input input-inline">
               <label class="input-label">Mobile*: </label>
               <input type="text"
-                     name="input"
+                     id="Mobile"
                      class="input-field">
-            </div>
-            <div class="input input-inline">
-              <label class="input-label">Sex*: </label>
-              <select type="text"
-                      name="input"
-                      class="input-field">
-							<option>Male</option>
-							<option>Female</option>
-							</select>
             </div>
             <p class="required">*Required fields</p>
             <div class="bottom-btn">
               <button class="button back-btn-time" onclick="timeBack()"> Back</button>
-              <button class="button continue-btn" id="iubi" onclick="confirmNext()"> Continue</button>
+              <button class="button continue-btn" onclick="confirmNext()"> Continue</button>
             </div>
           </div>
         </div>
@@ -183,7 +170,14 @@
 
       <div class="confirm-container hidden">
       	<div class="panel">
-      		 <p id="eu"></p>
+         <h1 class="title-details">My details</h1>
+          <ul>
+            <li id="first-name"></li>
+            <li id="last-name"></li>
+            <li id="email"></li>
+            <li id="mobile"></li>
+            <li id="time"></li>
+          </ul>
       	</div>
 
       </div>
