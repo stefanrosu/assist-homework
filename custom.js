@@ -13,27 +13,27 @@
 	function detailsNext() {
 		$(".time-container").hide();
 		$(".details-container").show();
+	    window.renderOfficeAndService('#details-list-form');
+	    window.renderSelectedDate();
 	}
 	function timeBack() {
-		var d = document.getElementById("date").value;
-		document.getElementById("time").innerHTML = "Date:  " + d;
 		$(".time-container").show();
 		$(".details-container").hide();
 	}
-	function confirmNext() {
-		 var f = document.getElementById("f-name").value;
-         var l = document.getElementById("l-name").value;
-         var e = document.getElementById("Email").value;
-         var m = document.getElementById("Mobile").value;
-         document.getElementById("first-name").innerHTML = "First Name:  " + f;
-         document.getElementById("last-name").innerHTML = "Last Name:  " + l;
-         document.getElementById("email").innerHTML = "Email:  " + e;
-         document.getElementById("mobile").innerHTML = "Mobile:  " + m;
 
+
+	function confirmNext() {
+		
 		$(".confirm-container").show();
 		$(".details-container").hide();
+
+		window.renderConfirmationPage();
+
 	}
+
+
 	function render() {
+		window.mySelection = {};
 		window.renderOffices();
 	}
 

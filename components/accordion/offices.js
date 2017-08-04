@@ -73,7 +73,7 @@
         '<div class="info-txt">' +
         '<p>' + item.address + '</p>' +
         '<p>' + item.phone + '</p>' +
-        '<button class="acc-btn btn-acc" onclick="selectOffice(' + item.id + ')">Select</button>'
+        '<button class="acc-btn btn-acc" onclick="selectOffice(' + item.id+ ')">Select</button>'
       '</div > '
 
       $('.accordion').append($(template));
@@ -93,6 +93,12 @@
     $(".services-container").show();
     $(".office-container").hide();
     window.renderServices(officeId);
+
+    window.offices.find(function(item) {
+      if (item.id == officeId) {
+        window.mySelection.office = item;
+      }
+    });
   }
 
   window.offices = offices;

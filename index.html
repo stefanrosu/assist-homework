@@ -34,14 +34,14 @@
         <ol class="steps">
           <li class="nav-steps">Select office</li>
           <li class="nav-steps">Select services</li>
-          <li class="nav-steps">Select data</li>
-          <li class="nav-steps">Registration</li>
-          <li class="nav-steps">Confirm</li>
+          <li class="nav-steps">Select date</li>
+          <li class="nav-steps">Your details</li>
+          <li class="nav-steps">Confirmation</li>
         </ol>
       </nav>
       <!-- select office -->
       <div class="office-container">
-        <div class="panel">
+        <div id="calendar" class="panel">
           <h1 class="title-details">Select your office</h1>
           <p class="txt-details">PhotoNet are the UK and Ireland’s most trusted baby, child and family portrait photography specialists, our studios
             are located nationwide in selected Mothercare & Debenhams stores.</p>
@@ -79,22 +79,7 @@
         <div class="panel">
           <div class="about">
             <h1 class="title-details">Select your time</h1>
-            <ul>
-              <li><span class="about-left">Photo Shoot:</span>
-                <span class="about-right"> Standard</span>
-              </li>
-              <li><span class="about-left">Description:</span>
-                <span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
-              </li>
-              <li><span class="about-left">Price:</span>
-                <span class="about-right"> 270 $</span>
-              </li>
-              <li><span class="about-left">Adress:</span>
-                <span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
-              </li>
-              <li><span class="about-left">Date:</span>
-                <span class="about-right">May 27, 2017</span>
-              </li>
+            <ul  id="details-list-calendar">
             </ul>
           </div>
 
@@ -112,26 +97,17 @@
       <!-- registration -->
       <div class="details-container hidden">
         <div class="panel">
-          <div class="about">
+         <div class="about">
             <h1 class="title-details">Your details</h1>
-            <ul>
-              <li><span class="about-left">Photo Shoot:</span>
-                <span class="about-right"> Standard</span>
-              </li>
-              <li><span class="about-left">Description:</span>
-                <span class="about-right"> Our Standard Photo Shoot is a full photo shoot suitable for you and your family, lasting approximately 30 minutes we will take between 25 and 30 images capturing a variety of photography styles. You will receive a complimentary digital image from the day</span>
-              </li>
-              <li><span class="about-left">Price:</span>
-                <span class="about-right"> 270 $</span>
-              </li>
-              <li><span class="about-left">Adress:</span>
-                <span class="about-right">Mothercare, Mahon Point Retail Park, Mahon Point</span>
-              </li>
-              <li><span class="about-left">Date:</span>
-                <span class="about-right">May 27, 2017 </span>
-              </li>
+            <ul  id="details-list-form">
             </ul>
           </div>
+          <div >
+            <ul id="details-list-form">
+             
+            </ul>
+          </div>
+
           <div class="registration">
             <div class="input input-inline">
               <label class="input-label ">First Name*: </label>
@@ -146,21 +122,21 @@
             </div>
             <div class="input input-inline">
               <label class="input-label">Email*: </label>
-              <input type="text"
+              <input type="email"
                      id="Email"
                      class="input-field"
                      placeholder="email@email.com">
             </div>
             <div class="input input-inline">
               <label class="input-label">Mobile*: </label>
-              <input type="text"
+              <input type="phone"
                      id="Mobile"
                      class="input-field">
             </div>
             <p class="required">*Required fields</p>
             <div class="bottom-btn">
               <button class="button back-btn-time" onclick="timeBack()"> Back</button>
-              <button class="button continue-btn" onclick="confirmNext()"> Continue</button>
+              <button class="button continue-btn" onclick="confirmNext()"> Confirm</button>
             </div>
           </div>
         </div>
@@ -170,16 +146,23 @@
 
       <div class="confirm-container hidden">
       	<div class="panel">
-         <h1 class="title-details">My details</h1>
-          <ul>
-            <li id="first-name"></li>
-            <li id="last-name"></li>
-            <li id="email"></li>
-            <li id="mobile"></li>
-            <li id="time"></li>
-          </ul>
-      	</div>
+         <h1 class="title-details">Confirmation</h1>
 
+          <div class="about">
+            <h3 class="title-details">Your booking details</h3>
+            <ul  id="details-list-confirmation">
+            </ul>
+          </div>
+
+           <div class="about about-user">
+            <h3 class="title-details">Your personal details</h3>
+            <ul  id="user-details-confirmation">
+            </ul>
+
+          </div>
+
+      	</div>
+            <!-- <div id="map-confirmation"></div> -->
       </div>
 
       
@@ -196,6 +179,8 @@
   <script type="text/javascript" src="components/js/ui.js"></script>
   <script type="text/javascript" src="components/accordion/offices.js"></script>
   <script type="text/javascript" src="components/services/services.js"></script>
+  <script type="text/javascript" src="components/calendar/calendar.js"></script>
+  <script type="text/javascript" src="components/confirmation/confirmation.js"></script>
   <script type="text/javascript" src="custom.js"></script>
 
 </html>
